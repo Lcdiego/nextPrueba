@@ -1,4 +1,4 @@
-import dbConnect from '../../../lib/mongodb';
+import dbConnect from '../../../lib/db/mongodb';
 
 export async function GET(req) {
     await dbConnect();

@@ -1,5 +1,5 @@
-import dbConnect from '@/lib/mongodb';
-import User from '@/lib/models/User';
+import dbConnect from '../../../../lib/db/mongodb';
+import User from '../../../../lib/models/User';
 import bcrypt from 'bcrypt';
 
 export async function POST(req) {
