@@ -46,7 +46,7 @@ console.log(message);
                 />
                 <button type="submit">Registrar</button>
             </form>
-            {message && <p className='text-black'>{message}</p>}
+            {message && <p className='text-green-500'>{message}</p>}
         </div>
     );
 }
